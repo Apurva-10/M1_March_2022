@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "arrayUtil.h"
 
-//author: Kollen Gruizenga
+
 //defines the code to print int array, element by element.
 
 void printArray(int arr[], int sz){
