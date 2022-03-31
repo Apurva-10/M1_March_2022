@@ -4,6 +4,8 @@
 
 # C_Insertion_Selection_Sorts
 
+C program files utilizing Makefile with .h and .c to perform Insertion and Selection sorts
+
 # Introduction
 
 # Insertion_Sort 
