@@ -5,7 +5,7 @@ int multiplication();
 int division();
 int modulus();
 int power();
-int factorial(); // it is header file, conatins all function
+int factorial(); // it is header file, include all function
 int main() {
   // variable declaration
   int choice; 
@@ -21,34 +21,34 @@ int main() {
       printf("Enter two number");
       scanf("%d %d",&n1,&n2);
       
-      ans = addition(n1,n2); //calling addition function
+      ans = addition(n1,n2); //call to  addition function
       
       printf("answer=%d",ans);
       break;
     case 2:
      printf("Enter two number");
       scanf("%d %d",&n1,&n2);
-      ans=subtraction(n1,n2); //calling subtraction function
+      ans=subtraction(n1,n2); //call to subtraction function
       printf("answer=%d",ans);
       break;
     case 3:
       printf("Enter two number");
       scanf("%d %d",&n1,&n2);
-      ans = multiplication(n1,n2); //calling multiply function 
+      ans = multiplication(n1,n2); //call to multiply function 
       printf("answer=%d",ans);
       break;
     case 4:
       printf("Enter two number");
       scanf("%d %d",&n1,&n2);
      
-     ans = division(n1,n2);    //calling division function
+     ans = division(n1,n2);    //call to division function
      printf("answer=%d",ans);
 
       break;
     case 5: 
         printf("Enter two number");
         scanf("%d %d",&n1,&n2);
-       ans= modulus(n1,n2);  // calling madules function
+       ans= modulus(n1,n2);  // call to madules function
        printf("answer=%d",ans);
         break;  
     case 6: 
