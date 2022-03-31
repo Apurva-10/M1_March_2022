@@ -1,7 +1,7 @@
 #include "sort.h"
 #include "arrayUtil.h"
 
-//Author: Kollen Gruizenga
+
 //the main method code for Selection Sort
 int main(){
   int arrayTest[10] = {12, 9, -2, 20, 14, 8, 0, 99, 74, 17};
